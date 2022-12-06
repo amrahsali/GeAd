@@ -24,6 +24,7 @@ public class FactFragment extends Fragment {
 
         recyclerView = view.findViewById(R.id.rvNumbers);
         recyclerView.setHasFixedSize(true);
+
         recyclerView.setLayoutManager(new LinearLayoutManager(view.getContext()));
         recyclerView.setAdapter(new FactAdapter(1234));
         return view;
